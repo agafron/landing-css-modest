@@ -217,7 +217,7 @@ a:hover {
 	width: 100%;
 	height: 535px;
 	background: #fff;
-	/*border: 1px solid #222;*/
+	border-bottom: 1px solid #d0d5d9;
 }
  .h2 {
 	width: 1140px;
@@ -237,9 +237,7 @@ a:hover {
 	font-weight: bold;
 	border-left: 10px solid #e1e6ea;
 }
-#about {
-	border-bottom: 1px solid #d0d5d9;
-}
+
 #about .container {
 	width: 1140px;
 	height: 337px;
