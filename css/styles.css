@@ -564,7 +564,7 @@ margin: 0;
 	/*border: 1px solid #220;*/
 }
 #services .container .servicesItem {
-	margin-left: -2px;
+	margin-left: 0px;
 	/*border: 1px solid #333;*/
 	width: 1140px;
 	height: 700px;
@@ -578,7 +578,7 @@ margin: 0;
 	float: left;
 	width: 260px;
 	height: 230px;
-	/*border: 1px solid #d0d5d9;*/
+	border: 1px solid #d0d5d9;
 	margin-left: 30px;
 	margin-bottom: 80px;
 }
@@ -587,6 +587,7 @@ margin: 0;
 }
 
 #services .container .servicesItem li div {
+	margin-top: 3px;
 	margin-bottom: 25px;
 	text-align: center;
 }
