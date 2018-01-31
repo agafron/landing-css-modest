@@ -607,3 +607,11 @@ margin: 0;
 	font-family: "Open Sans";
 	text-align: center;
 }
+#services .container .servicesItem li:hover {
+	background: #d0d5d9;
+	-webkit-border-radius: 3px;
+	 -moz-border-radius: 3px;
+	 -ms-border-radius: 3px;
+	 -o-border-radius: 3px;
+	 border-radius: 3px; 
+}
