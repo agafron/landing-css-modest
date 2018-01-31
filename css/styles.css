@@ -554,3 +554,55 @@ margin: 0;
 	color: #292f36;
 	cursor: pointer;
 }
+
+#services {
+	height: 900px;
+}
+#services .container {
+	height: 900px;
+	margin: 0 auto;
+	/*border: 1px solid #220;*/
+}
+#services .container .servicesItem {
+	margin-left: -2px;
+	/*border: 1px solid #333;*/
+	width: 1140px;
+	height: 700px;
+}
+#services .container .servicesItem ul {
+	margin: 0;
+	margin-left: -40px;
+}
+
+#services .container .servicesItem li {
+	float: left;
+	width: 260px;
+	height: 230px;
+	/*border: 1px solid #d0d5d9;*/
+	margin-left: 30px;
+	margin-bottom: 80px;
+}
+#services .container .servicesItem li:nth-child(4n+1) {
+	margin-left: 0;
+}
+
+#services .container .servicesItem li div {
+	margin-bottom: 25px;
+	text-align: center;
+}
+#services .container .servicesItem li .serviceTitle {
+	font-size: 17px;
+	color: rgb(41,47,54);
+	font-family: "Quattrocento Sans";
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#services .container .servicesItem li .serviceText {
+	width: 262px;
+	height: 99px;
+	font-size: 16px;
+	line-height: 26px;
+	color: rgb(141,143,146);
+	font-family: "Open Sans";
+	text-align: center;
+}
