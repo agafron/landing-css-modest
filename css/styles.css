@@ -734,6 +734,7 @@ margin-bottom: 30px;
 	font-family: "Open Sans";
 	font-size: 18px;
 	line-height: 26px;
+	border: none;
 }
 #contact .base .container .contactForm div .contactText {
 	width: 240px;
@@ -748,6 +749,7 @@ margin-bottom: 30px;
 	height: 159px;
 	font-size: 16px;
 	line-height: 26px;
+	border-color: transparent;
 }
 #contact .base .container .contactForm button {
 	width: 147px;
