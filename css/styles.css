@@ -6,13 +6,13 @@ body {
 	/*border-top: 5px solid #7e7e7e;*/
 	margin: 0;
 }
-input[type="text"] {
+/*input[type="text"] {
 	background-color: #f3f3f3;
 	border: 1px solid #e7e7e7;
 	height: 30px;
 	color: #b2b2b2;
 	padding: 0 10px;
-	vertical-align: top;
+	vertical-align: top;*/
 }
 button {
 	color: #fff;
@@ -34,6 +34,9 @@ a {
  
 a:hover {
  text-decoration: none;
+}
+.darkBackground {
+	background: #3a454d;
 }
 .header {
 	margin-top: 0;
@@ -114,7 +117,7 @@ a:hover {
 #banner {
 	margin-top: 0px;
 	height: 660px;
-	background: #3a454d url(../images/banner-bg.png) no-repeat center bottom;
+	background: #3a454d url(../images/banner-bg.jpg) no-repeat center bottom;
 	-moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%;
@@ -450,7 +453,6 @@ margin: 0;
 }
 
 #work {
-	background: #3a454d;
 	width: 100%;
 	height: 899px;
 	position: relative;
@@ -614,4 +616,157 @@ margin: 0;
 	 -ms-border-radius: 3px;
 	 -o-border-radius: 3px;
 	 border-radius: 3px; 
+}
+
+#features {
+	height: 730px;
+	margin-top: 0;
+}
+#features .container .h2 {
+	position: relative;
+	
+}
+
+#features .container .title {
+	position: absolute;
+	top: 40px;
+	color: #fff;
+	border-left: 10px solid #4e5a62;
+}
+#features .container .fatureItem ul {
+	margin-top: 160px;
+	margin-left: -40px;
+}
+#features .container .fatureItem li {
+	width: 360px;
+	height: 440px;
+	float: left;
+	margin-left: 30px;
+	/*border: 0.1px solid #4e5a62;*/
+}
+
+#features .container .fatureItem li:first-child {
+	margin-left: 0;
+}
+#features .container .fatureItem li .featureImage {
+	margin-bottom: 40px;
+}
+#features .container .fatureItem li .featureTitle {
+	font-size: 18px;
+	line-height: 42px;
+	color: rgb(255,255,255);
+	font-family: "Quattrocento Sans";
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+#features .container .fatureItem li .featureText {
+	width: 369px;
+	height: 206px;
+	font-size: 16px;
+	line-height: 26px;
+	color: rgb(220,223,225);
+	font-family: "Open Sans";
+}
+#contact {
+	height: 870px;
+
+}
+#contact .base {
+	height: 700px;
+	background: url(../images/base.jpg) no-repeat center top;
+	/*border: 1px solid #4e5a62;*/
+}
+#contact .base .container {
+	width: 1140px;
+	height: 700px;
+	/*border: 1px solid #4e5a62;*/
+	position: relative;
+}
+
+#contact .base .container .contactInfo {
+	width: 536px;
+	height: 215px;
+	/*border: 1px solid #4e5a62;*/
+	position: absolute;
+	bottom: 90px;
+}
+#contact .base .container .contactInfoTitle {
+font-size: 20px;
+line-height: 26px;
+color: rgb(41,47,54);
+font-family: "Quattrocento Sans";
+font-weight: bold;
+text-transform: uppercase;
+margin-left: 10px;
+margin-bottom: 30px;
+}
+#contact .base .container .contactInfoText {
+	width: 536px;
+	height: 151px;
+	font-size: 16px;
+	line-height: 26px;
+	color: rgb(141,143,146);
+	font-family: "Open Sans";
+}
+#contact .base .container .contactForm {
+	width: 555px;
+	height: 400px;
+	background-color: rgba(255, 255, 255, .85);
+	position: absolute;
+	bottom: 90px;
+	right: 0px;
+}
+#contact .base .container .contactForm div {
+	float: left;
+	font-size: 14px;
+	line-height: 26px;
+	color: rgb(141,143,146);
+	font-family: "Quattrocento Sans";
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 10px
+}
+#contact .base .container .contactForm div input {
+	border-radius: 3px;
+	background-color: #eaeef1;
+	color: rgb(141,143,146);
+	font-family: "Open Sans";
+	font-size: 18px;
+	line-height: 26px;
+}
+#contact .base .container .contactForm div .contactText {
+	width: 240px;
+	height: 44px;
+}
+#contact .base .container .contactForm div .message {
+	border-radius: 3px;
+	background-color: #eaeef1;
+	color: rgb(141,143,146);
+	font-family: "Open Sans";
+	width: 495px;
+	height: 159px;
+	font-size: 16px;
+	line-height: 26px;
+}
+#contact .base .container .contactForm button {
+	width: 147px;
+	height: 40px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #23b7a3;
+	border: 2px solid #23b7a3;
+	line-height: 28px;
+	color: rgb(255,255,255);
+	position: absolute;
+	left: 10px;
+	bottom: 20px;
+	text-transform: uppercase;
+}
+#contact .base .container .contactForm button:hover {
+	color: #eaeef1;
+	cursor: pointer;
 }
