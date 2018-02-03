@@ -12,8 +12,8 @@ body {
 	height: 30px;
 	color: #b2b2b2;
 	padding: 0 10px;
-	vertical-align: top;*/
-}
+	vertical-align: top;
+}*/
 button {
 	color: #fff;
 	background-color: #29c5e6;
@@ -70,7 +70,7 @@ a:hover {
 	/*list-style:none;*/
 	position: absolute;
 	top: 26px;
-	right: 0px;*/
+	right: 0px;
 	width: 613px;
 	float: right;
 }
