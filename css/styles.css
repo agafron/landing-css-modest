@@ -775,3 +775,41 @@ margin-bottom: 30px;
 	color: #eaeef1;
 	cursor: pointer;
 }
+@font-face {
+  font-family: 'Socialico';
+  src: url('../fonts/Socialico.ttf');
+}
+footer {
+	/*width: 1900px;*/
+	height: 95px;
+	background-color: #39454d;
+}
+footer .container {
+	height: 95px;
+	/*border: 1px solid #223*/
+}
+footer .container .copyright {
+	display: block;
+	float: left;
+	padding-top: 30px;
+	font-size: 14px;
+	line-height: 26px;
+	color: rgb(255,255,255);
+	font-family: "Open Sans";
+}
+
+footer .container .socialIcons {
+	font-size: 28px;
+	letter-spacing: 17px;
+	line-height: 26px;
+	color: rgb(255,255,255);
+	font-family: "Socialico";
+}
+footer .container .socialIcons a {
+	color: #fff;
+}
+footer .container .socialIcons li {
+	float: right;
+	margin-left: 2px;
+	margin-top: 30px;
+}
